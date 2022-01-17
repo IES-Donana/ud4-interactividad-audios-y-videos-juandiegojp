@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        #bg {
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            min-width: 100%;
+            min-height: 100%;
+        }
+        #front {
+            max-width: 250px;
+            max-height: 250px;
+            position: absolute;
+            left: 50%;
+            top: 32%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+    <title>Ejercicio 6</title>
+</head>
+<body>
+    <video autoplay muted loop id="bg">
+        <source src="https://cdn.videvo.net/videvo_files/video/free/2013-09/large_watermarked/MoonandSeaHDFInalRenderH264_preview.mp4" type="video/mp4">
+    </video>
+    <video autoplay muted loop id="front">
+        <source src="https://cdn.videvo.net/videvo_files/video/free/2012-08/large_watermarked/hd0213_preview.mp4" type="video/mp4">
+    </video>
+</body>
+</html>
